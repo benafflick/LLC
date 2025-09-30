@@ -89,7 +89,7 @@ const Homepage = () => {
                     href="tel:+15551234567"
                     className="text-blue-600 hover:underline"
                   >
-                    (555) 123-4567
+                    +1 470 864 6587
                   </a>
                 </span>
               </li>
@@ -115,7 +115,7 @@ const Homepage = () => {
                     href="mailto:contact@leconjllc.com"
                     className="text-blue-600 hover:underline"
                   >
-                    contact@leconjllc.com
+                    rmbdbr3@gmail.com
                   </a>
                 </span>
               </li>
