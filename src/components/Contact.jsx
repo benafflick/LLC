@@ -115,7 +115,7 @@ const Homepage = () => {
                     href="mailto:contact@leconjllc.com"
                     className="text-blue-600 hover:underline"
                   >
-                    rmbdbr3@gmail.com
+                    rmbdbr3@leconjllc.com
                   </a>
                 </span>
               </li>
