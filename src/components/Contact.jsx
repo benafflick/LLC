@@ -12,7 +12,7 @@ const Homepage = () => {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         id="Contact"
-        className="relative min-h-screen p-6 py-20 l]g:px-32 flex flex-col items-center mb-7 bg-gray-50 w-full"
+        className="relative min-h-auto p-6 py-20 l]g:px-32 mb-7 flex flex-col items-center bg-gray-50 w-full"
       >
         {/* Heading and Intro Text */}
         <div className="text-center px-6 md:px-16 py-12">
