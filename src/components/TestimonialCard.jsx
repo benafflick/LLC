@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const TestimonialCard = () => {
   const cardsData = [
@@ -37,7 +38,13 @@ const TestimonialCard = () => {
   ];
 
   const CreateCard = ({ card }) => (
-    <div className="p-4 rounded-lg mx-4 shadow hover:shadow-lg transition-all duration-200 w-72 shrink-0 bg-white">
+    <motion.div
+      initial={{ opacity: 0, x: 200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="p-4 rounded-lg mx-4 shadow hover:shadow-lg transition-all duration-200 w-72 shrink-0 bg-white"
+    >
       <div className="flex gap-2">
         <img
           className="w-11 h-11 rounded-full object-cover"
@@ -52,7 +59,7 @@ const TestimonialCard = () => {
         </div>
       </div>
       <p className="text-sm py-4 text-gray-800">{card.message}</p>
-    </div>
+    </motion.div>
   );
 
   return (

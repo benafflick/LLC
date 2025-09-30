@@ -1,13 +1,18 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { motion } from "framer-motion";
 
 const Homepage = () => {
   return (
     <>
       {/* Contact Section */}
-      <section
+      <motion.div
+        initial={{ opacity: 0, x: -200 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
         id="Contact"
-        className="relative min-h-screen flex flex-col items-center mb-7 bg-gray-50"
+        className="relative min-h-screen p-6 py-20 l]g:px-32 flex flex-col items-center mb-7 bg-gray-50 w-full"
       >
         {/* Heading and Intro Text */}
         <div className="text-center px-6 md:px-16 py-12">
@@ -117,7 +122,7 @@ const Homepage = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </motion.div>
     </>
   );
 };
