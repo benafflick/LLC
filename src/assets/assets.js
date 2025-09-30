@@ -1,5 +1,5 @@
 import logo from "./logo.png";
-import logo_dark from "./logo_dark.svg";
+import logo_dark from "./logo_dark.png";
 import cross_icon from "./cross_icon.svg";
 import menu_icon from "./menu_icon.svg";
 import star_icon from "./star_icon.svg";
@@ -7,6 +7,7 @@ import left_arrow from "./left_arrow.svg";
 import right_arrow from "./right_arrow.svg";
 import header_img from "./header_img.png";
 import brand_img from "./brand_img.png";
+import contact_img from "./contact.jpg";
 import project_img_1 from "./project_img_1.jpg";
 import project_img_2 from "./project_img_2.jpg";
 import project_img_3 from "./project_img_3.jpg";
@@ -31,42 +32,43 @@ export const assets = {
   project_img_4,
   left_arrow,
   right_arrow,
+  contact_img,
 };
 
 export const projectsData = [
   {
     title: "Skyline Haven",
-    price: "$2,50,000",
+    price: "$2,500,000",
     location: "California",
     image: project_img_1,
   },
   {
     title: "Vista Verde",
-    price: "$2,50,000",
+    price: "$2,500,000",
     location: "San Francisco",
     image: project_img_2,
   },
   {
     title: "Serenity Suites",
-    price: "$2,50,000",
+    price: "$2,500,000",
     location: "Chicago",
     image: project_img_3,
   },
   {
     title: "Central Square",
-    price: "$2,50,000",
+    price: "$2,500,000",
     location: "Los Angeles",
     image: project_img_4,
   },
   {
     title: "Vista Verde",
-    price: "$2,50,000",
+    price: "$2,500,000",
     location: "San Francisco",
     image: project_img_5,
   },
   {
     title: "Serenity Suites",
-    price: "$2,50,000",
+    price: "$2,500,000",
     location: "Chicago",
     image: project_img_6,
   },
